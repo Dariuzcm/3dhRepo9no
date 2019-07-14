@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>3DH code</title>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta content="" name="keywords" />
+		<meta content="" name="description" />
+
+		<!-- Favicons -->
+		<link href="{{assetsUrl('img/favicon.png')}}" rel="icon" />
+		<link href="{{assetsUrl('img/apple-touch-icon.png')}}" rel="apple-touch-icon" />
+
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+			rel="stylesheet"
+		/>
+
+		<!-- Bootstrap CSS File -->
+		{{style('lib/bootstrap/css/bootstrap.min.css" rel="stylesheet')}}
+
+		<!-- Libraries CSS Files -->
+		{{style('lib/font-awesome/css/font-awesome.min.css" rel="stylesheet')}}
+		{{style('lib/animate/animate.min.css" rel="stylesheet')}}
+		{{style('lib/ionicons/css/ionicons.min.css" rel="stylesheet')}}
+		{{style('lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet')}}
+		{{style('lib/lightbox/css/lightbox.min.css" rel="stylesheet')}}
+
+		<!-- Main Stylesheet File -->
+		{{style('css/style.css" rel="stylesheet')}}
+
+		<!-- =======================================================
+		Theme Name: NewBiz
+		Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
+		Author: BootstrapMade.com
+		License: https://bootstrapmade.com/license/
+		======================================================= -->
+	</head>
+
+	<body>
+		<!--==========================
+		Header
+		============================-->
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
+
+		<header id="header" class="fixed-top">
+			<div class="container">
+				<div class="logo float-left">
+					<!-- Uncomment below if you prefer to use an image logo -->
+					<!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+					<a href="#intro" class="scrollto">
+						<img src="{{ assetsUrl('img/logo.png')}}" alt="" class="img-fluid"/>3DHcode
+					</a>
+				</div>
+
+				<nav class="main-nav float-right d-none d-lg-block">
+					<ul>
+						<li class="active"><a href="#intro">Inicio</a></li>
+						<li><a href="#about">Nosotros</a></li>
+						<li class="drop-down">
+							<a href="#services">Descripción del<br />proyecto</a>
+							<ul>
+								<li><a href="#">Objetivo General</a></li>
+								<li><a href="#">Objetivo Especifico</a></li>
+								<li><a href="#">Plan de acción</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#portfolio">Agenda para ejecución<br />del proyecto</a>
+						</li>
+						<li>
+							<a href="#team">Integrantes del equipo</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- .main-nav -->
+			</div>
+		</header>
+		<!-- #header -->
+
+		<!--==========================
+		Intro Section
+		============================-->
+		<section id="intro" class="clearfix">
+			<div class="container">
+				<div class="intro-img">
+					<img src="{{assetsUrl('img/intro-img.svg')}}" alt="" class="img-fluid" />
+				</div>
+
+				<div class="intro-info">
+					<h2>Consultora<br /><span>3DH</span><br /></h2>
+					<div>
+						<a href="#about" class="btn-get-started scrollto">Con&oacute;cenos</a>
+						<a href="#services" class="btn-services scrollto">Nuestro Plan</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- #intro -->
+
+		<main id="main">
+		<!--==========================
+		About Us Section
+		============================-->
+			<section id="about">
+				<div class="container">
+					<header class="section-header">
+						<h3>Nosotros</h3>
+						<p>
+							Somos una empresa responsable a fin a las necesidades de la actualidad en los diferentes &aacute;mbitos tecnol&oacute;gicos, hemos visto la
+							evoluci&oacute;n de la tecnolog&iacute;a y lo necesario e indispensable que se ha
+							convertido actualmente.
+						</p>
+					</header>
+
+					<div class="row about-container">
+						<div class="col-lg-6 content order-lg-1 order-2">
+							<p>
+								Tomamos como base algunos est&aacute;ndares internacionales para validar o mejorar la calidad del cableado estructurado,
+								 como es el caso de la TIA/EIA 568, as&iacute; como la distribuci&oacute;n l&oacute;gica de la red. 
+								 Tambi&eacute;n nos basamos en documentaci&oacute;n de software para dar a nuestros clientes las mejores propuestas.
+							</p>
+							<div class="icon-box wow fadeInUp">
+								<div class="icon"><i class="fa fa-shopping-bag"></i></div>
+								<h4 class="title">
+									<a href="">Misi&oacute;n</a>
+								</h4>
+								<p class="description">
+									Ofrecer un buen servicio de consultor&iacute;a en el ár&aacute;a de sistemas 
+									y redes de alta calidad a aquellos clientes que aspiran a una buena optimizaci&oacute;n en sus organizaciones, 
+									con una perspectiva de mejora continua y calidad para la satisfacci&oacute;n de nuestros clientes.
+								</p>
+							</div>
+							<!--
+							<div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+								<div class="icon"><i class="fa fa-photo"></i></div>
+								<h4 class="title">
+									<a href="">¿Será que podré aprender?</a>
+								</h4>
+								<p class="description">
+									Además con el objetivo de adaptarse a las necesidades de todos
+									los usuarios, dispone de diferentes planes enfocados al hogar,
+									a las empresas y al ámbito educativo. Un indispensable que no
+									puede faltar en tu escritorio.
+								</p>
+							</div>
+							-->
+							<div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+								<div class="icon"><i class="fa fa-bar-chart"></i></div>
+								<h4 class="title">
+									<a href="">Visi&oacute;n</a>
+								</h4>
+								<p class="description">
+									Ser en el a&ntilde;o 2030 una empresa consultora reconocida a nivel estatal, 
+									con liderazgo en en el &aacute;rea de sistemas, caracteriz&aacute;ndose por fomentar e 
+									implementar el uso adecuado de las tecnolog&iacute;as as&iacute; como el cumplimiento de algunos est&aacute;ndares.
+								</p>
+							</div>
+						</div>
+
+						<div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+							<img src="{{assetsUrl('img/about-img.svg')}}" class="img-fluid" alt="" />
+						</div>
+					</div>
+<!--
+					<div class="row about-extra">
+						<div class="col-lg-6 wow fadeInUp">
+							<img src="img/about-extra-1.svg" class="img-fluid" alt="" />
+						</div>
+						<div id="proy_descripcion"class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+							<p>
+								Nunca es demasiado tarde para aprender, por lo cual nuestra
+								empresa solventará:
+							</p>
+							<h2 class="title">El Proyecto Social de Educación Informática</h2>
+							<h4>Objetivo general:</h4>
+							<p>
+								Dar cursos de paquete Office a los adultos mayores o jóvenes en
+								las distintas aplicaciones básicas y según las normas
+								estandarizadas del formato APA como herramientas para la
+								creación de archivos divulgativos y el uso de Excel de manera
+								avanzada, presentaciones con el uso de Power point, además de
+								tópicos básicos de informática como manejo de archivos y
+								navegación por internet.
+							</p>
+						</div>
+					</div>
+-->
+					<div class="row about-extra">
+						<div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+							<img src="{{assetsUrl('img/about-extra-2.svg')}}" class="img-fluid" alt="" />
+						</div>
+
+						<div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+							<h4>Objetivo</h4>
+							<p>
+								Realizar consultor&iacute;as en el área de sistemas inform&aacute;ticos y
+								 en la de redes, para ayudar a mejorar el desempe&ntilde;o o funcionamiento de la empresa que lo requiera.
+							</p>
+						</div>
+					</div>
+
+					<div class="row about-extra">
+						<div class="container wow fadeInUp" style="text-align: center;">
+							<header class="section-header">
+								<h1>Cont&aacute;ctanos</h1>
+							</header>
+							<p>
+								M&aacute;ndanos un email o ll&aacute;manos al n&uacute;mero que se encuentra al pie de esta p&aacute;gina, con gusto te cotizaremos o te atenderemos. 
+							</p>
+							<p>
+								Conoce m&aacute;s de nuestros servicios en <a href="https://www.facebook.com/3HD-code-848584285480396">nuestra p&aacute;gina de Facebook</a>.
+								<div class="fb-like" data-href="https://www.facebook.com/3HD-code-848584285480396" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!-- #about -->
+
+			<!--==========================
+			Services Section
+			============================
+			<section id="services" class="section-bg">
+				<div class="container">
+					<header class="section-header">
+						<h3>Plan de Acción</h3>
+						<p>¿Cómo lo haremos?</p>
+					</header>
+
+					<div class="row">
+						<div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+							<div class="box">
+								<div class="icon">
+									<i class="ion-ios-analytics-outline" style="color: #ff689b;"></i>
+								</div>
+								<h4 class="title"><a href="">Estructura de un sitio web</a></h4>
+								<p class="description">
+									Se explica y analiza de manera sencilla, la manera en que un
+									sitio web se conforma normalmente, identificando las secciones
+									mas usadas.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+							<div class="box">
+								<div class="icon">
+									<i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i>
+								</div>
+								<h4 class="title">
+									<a href="">Etiquetas HTML y propiedades</a>
+								</h4>
+								<p class="description">
+									Conocer algunas de las etiquetas mas utilizadas y con las que
+									se forma la estructura base de una pagina web.
+								</p>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s" >
+							<div class="box">
+								<div class="icon">
+									<i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i>
+								</div>
+								<h4 class="title">
+									<a href="">Variables y ciclos en programacion</a>
+								</h4>
+								<p class="description">
+									Entendimiento de fundamentos de programacion, con la creacion
+									y uso de variables, asi como de ciclos para repetir un
+									determinado proceso.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s" >
+							<div class="box">
+								<div class="icon">
+									<i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i>
+								</div>
+								<h4 class="title">
+									<a href="">Funciones con y sin par&aacute;metros</a>
+								</h4>
+								<p class="description">
+									Identificar la diferencia del uso de parametros en la
+									funciones, asi como conocer la composicion de una funcion.
+								</p>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s" >
+							<div class="box">
+								<div class="icon">
+									<i class="ion-ios-world-outline" style="color: #d6ff22;"></i>
+								</div>
+								<h4 class="title"><a href="">Tablas en bases de datos</a></h4>
+								<p class="description">
+									Conocer como se compone una base de datos y la manera en que
+									esta construida una tabla.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s" >
+							<div class="box">
+								<div class="icon">
+									<i class="ion-ios-clock-outline" style="color: #4680ff;"></i>
+								</div>
+								<h4 class="title">
+									<a href="">Registros en bases de datos</a>
+								</h4>
+								<p class="description">
+									Aprender a introducir, modificar y borrar registros en una
+									base de datos.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			#services -->
+
+			<!--==========================
+			Clients Section
+			============================-->
+			<section id="ourTeam" class="section-bg">
+				<div class="container">
+					<header class="section-header">
+						<h3>Nuestro Equipo</h3>
+					</header>
+
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="owl-carousel testimonials-carousel wow fadeInUp">
+								<div class="testimonial-item">
+									<img
+										src="{{assetsUrl('img/testimonial-1.jpg')}}"
+										class="testimonial-img"
+										alt=""
+									/>
+									<h3>Jos&eacute; Alberto Reyna Serrano</h3>
+									<h4>L&iacute;der y analista de sistemas</h4>
+									<p>
+										Estudiante de Ingenier&iacute;a en Tecnolog&iacute;as de la Informaci&oacute;n y
+										Comunicaci&oacute;n cursando el 8vo cuatrimestre de carrera,
+										trabaja de una manera din&aacute;mica y proactiva buscando la
+										manera m&aacute;s eficiente de resolver situaciones.
+									</p>
+								</div>
+
+								<div class="testimonial-item">
+									<img src="{{assetsUrl('img/team-22.jpg')}}" class="testimonial-img" alt="" />
+									<h3>Diana Elizabeth N&uacute;&ntilde;ez Barr&oacute;n</h3>
+									<h4>Responsable de calidad y redes</h4>
+									<p>
+										Licenciada en Educación F&iacute;sica y Deportes, actualmente
+										estudiante de ingenier&iacute;a en Tecnolog&iacute;as de la Informaci&oacute;n en
+										8vo cuatrimestre. Conocimientos generales de programaci&oacute;n y
+										con habilidad en redes, bases de datos y dise&ntilde;o web.
+									</p>
+								</div>
+
+								<div class="testimonial-item">
+									<img
+										src="{{assetsUrl('img/team-33.jpg')}}"
+										class="testimonial-img"
+										alt=""
+										style="margin-top: 30px; transform: rotate(90deg);"
+									/>
+									<br /><br /><br /><br /><br />
+									<h3>Diego Villarreal Nev&aacute;rez</h3>
+									<h4>Dise&ntilde;ador y responsable de pruebas</h4>
+									<p>
+										Cursando Ingenier&iacute;a en Tecnolog&iacute;as de la Informaci&oacute;n,
+										T&eacute;cnico Superior Universitario en TIC. Actualmente en
+										Durango, Dgo. Generalmente activo en plataformas de c&oacute;digo
+										libre como GitHub. Dise&ntilde;ador Amateur.
+									</p>
+								</div>
+
+								<div class="testimonial-item">
+									<img src="{{assetsUrl('img/team-44.jpg')}}" class="testimonial-img" alt="" />
+									<h3>Hiram Abiezer Padilla Mart&iacute;nez</h3>
+									<h4>Ingeniero de software</h4>
+									<p>
+										T&eacute;cnico Superior Universitario en Tecnolog&iacute;as de la
+										Informaci&oacute;n y Comunicaci&oacute;n, con conocimientos sobre redes y
+										distintos lenguajes de programacion como HTML, PHP, CSS,
+										Javascript y Java. Habilidad para manejar bases de datos
+										relacionales en MySQL y PostgreSQL, bases de datos NO SQL
+										con MongoDB.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- #testimonials -->
+
+			<!--==========================
+			Team Section
+			============================-->
+			<section id="team">
+				<div class="container">
+					<div class="section-header">
+						<h3>Redes</h3>
+						<p>Nuestro equipo est&aacute; capacitado con t&eacute;cnicas de excelencia</p>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-3 col-md-6 wow fadeInUp">
+							<div class="member">
+								<img src="{{assetsUrl('img/testimonial-1.jpg')}}" class="img-fluid" alt="" />
+								<div class="member-info">
+									<div class="member-info-content">
+										<h4>Jos&eacute; Alberto Reyna Serrano</h4>
+										<span>L&iacute;der y analista de sistemas</span>
+										<div class="social">
+											<a href=""><i class="fa fa-twitter"></i></a>
+											<a href=""><i class="fa fa-facebook"></i></a>
+											<a href=""><i class="fa fa-google-plus"></i></a>
+											<a href=""><i class="fa fa-linkedin"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+							<div class="member">
+								<img src="{{assetsUrl('img/team-22.jpg')}}" class="img-fluid" alt="" />
+								<div class="member-info">
+									<div class="member-info-content">
+										<h4>Diana Elizabeth N&uacute;&ntilde;ez Barr&oacute;n</h4>
+										<span>Responsable de calidad y redes</span>
+										<div class="social">
+											<a href=""><i class="fa fa-twitter"></i></a>
+											<a href=""><i class="fa fa-facebook"></i></a>
+											<a href=""><i class="fa fa-google-plus"></i></a>
+											<a href=""><i class="fa fa-linkedin"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="member">
+								<img
+									src="{{assetsUrl('img/team-333.jpg')}}"
+									class="img-fluid"
+									alt=""
+									style="height: 260px; width: 120px"
+								/>
+								<div class="member-info">
+									<div class="member-info-content">
+										<h4>Diego Villarreal Nev&aacute;rez</h4>
+										<span>Dise&ntilde;ador y responsable de pruebas</span>
+										<div class="social">
+											<a href=""><i class="fa fa-twitter"></i></a>
+											<a href=""><i class="fa fa-facebook"></i></a>
+											<a href=""><i class="fa fa-google-plus"></i></a>
+											<a href=""><i class="fa fa-linkedin"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+							<div class="member">
+								<img src="{{assetsUrl('img/team-44.jpg')}}" class="img-fluid" alt="" />
+								<div class="member-info">
+									<div class="member-info-content">
+										<h4>Hiram Abiezer Padilla Mart&iacute;nez</h4>
+										<span>Ingeniero de software</span>
+										<div class="social">
+											<a href=""><i class="fa fa-twitter"></i></a>
+											<a href=""><i class="fa fa-facebook"></i></a>
+											<a href=""><i class="fa fa-google-plus"></i></a>
+											<a href=""><i class="fa fa-linkedin"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+      <!-- #team -->
+      <section id="comentarios">
+		<div class="container" style="max-height: 25%; height:25%;">
+			<label for="comentarios"><h1>Comentarios</h1></label>
+			<div id="status"></div>
+			
+			<div class="comments">
+				@include('comentarios')
+			</div>
+		  <br>
+        </div>
+      </section>
+		</main>
+
+		<!--==========================
+		Footer
+		============================-->
+		<footer id="footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 footer-info">
+							<h3>3DHcode</h3>
+							<p>
+								Como 3DHcode, somos una empresa orientada a las tecnolog&iacute;as de la
+								informaci&oacute;n estando siempre a la vanguardia del	procesamiento de datos,
+								gesti&oacute;n de servicios inform&aacute;ticos y
+								redes para las empresas desde peque&ntilde;as hasta grandes
+								corporativos desarrollando soluciones inform&aacute;ticas con
+								profesionalismo incursando en las nuevas tecnolog&iacute;as en el
+								desarrollo de aplicaciones nativas y web, as&iacute; como animaci&oacute;n.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 footer-contact">
+							<h4>Cont&aacute;ctanos</h4>
+							<p>
+								Calle 5 de Febrero #1919 <br />
+								Durango, Dgo<br />
+								M&eacute;xico <br />
+								<strong>Phone:</strong> +516182086126<br />
+								<strong>Email:</strong> dh3code@gmail.com<br />
+							</p>
+
+							<div class="social-links">
+								<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="instagram"
+									><i class="fa fa-instagram"></i
+								></a>
+								<a href="#" class="google-plus"
+									><i class="fa fa-google-plus"></i
+								></a>
+								<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 footer-newsletter">
+							<h4>Ac&eacute;rcate</h4>
+							<p>M&aacute;ndanos un email o ll&aacute;manos</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="copyright">
+					&copy; Copyright <strong>NewBiz</strong>. All Rights Reserved
+				</div>
+				<div class="credits">
+					<!--
+						All the links in the footer should remain intact.
+						You can delete the links only if you purchased the pro version.
+						Licensing information: https://bootstrapmade.com/license/
+						Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
+					-->
+					Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+				</div>
+			</div>
+		</footer>
+		<!-- #footer -->
+
+		<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+		<!-- Uncomment below i you want to use a preloader -->
+		<!-- <div id="preloader"></div> -->
+
+		<!-- JavaScript Libraries -->
+		{{ script('lib/jquery/jquery.min.js')}}
+		{{ script('lib/jquery/jquery-migrate.min.js')}}
+		{{ script('lib/bootstrap/js/bootstrap.bundle.min.js')}}
+		{{ script('lib/easing/easing.min.js')}}
+		{{ script('lib/mobile-nav/mobile-nav.js')}}
+		{{ script('lib/wow/wow.min.js')}}
+		{{ script('lib/waypoints/waypoints.min.js')}}
+		{{ script('lib/counterup/counterup.min.js')}}
+		{{ script('lib/owlcarousel/owl.carousel.min.js')}}
+		{{ script('lib/isotope/isotope.pkgd.min.js')}}
+		{{ script('lib/lightbox/js/lightbox.min.js')}}
+		<!-- Contact Form JavaScript File -->
+		{{ script('contactform/contactform.js')}}
+
+		<!-- Template Main Javascript File -->
+		{{ script('js/main.js')}}
+		{{ script('js/comment.js')}}
+		
+	</body>
+</html>
