@@ -2,6 +2,13 @@
 const Comments= use('App/Models/Comment');
 
 class MainController {
+    
+    async GetEnglish({view}){
+        const page=10;
+        const comments = await Comments.query().select().orderBy('id','desc').fetch();
+        console.log(comments.toJSON());
+        return view.render('welcomeenglish',{comments: comments.toJSON()}); 
+    }
     async GetIndex({view}){
         const page=10;
         const comments = await Comments.query().select().orderBy('id','desc').fetch();

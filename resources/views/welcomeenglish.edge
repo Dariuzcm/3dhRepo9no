@@ -8,26 +8,24 @@
 		<meta content="" name="description" />
 
 		<!-- Favicons -->
+		<link href="{{assetsUrl('img/favicon.png')}}" rel="icon" />
 		<link href="{{assetsUrl('img/apple-touch-icon.png')}}" rel="apple-touch-icon" />
 
 		<!-- Google Fonts -->
-		<link
-			href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-			rel="stylesheet"
-		/>
+		{{style('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700')}}
 
 		<!-- Bootstrap CSS File -->
-		{{style('lib/bootstrap/css/bootstrap.min.css" rel="stylesheet')}}
+		{{style('lib/bootstrap/css/bootstrap.min.css')}}
 
 		<!-- Libraries CSS Files -->
-		{{style('lib/font-awesome/css/font-awesome.min.css" rel="stylesheet')}}
-		{{style('lib/animate/animate.min.css" rel="stylesheet')}}
-		{{style('lib/ionicons/css/ionicons.min.css" rel="stylesheet')}}
-		{{style('lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet')}}
-		{{style('lib/lightbox/css/lightbox.min.css" rel="stylesheet')}}
+		{{style('lib/font-awesome/css/font-awesome.min.css')}}
+		{{style('lib/animate/animate.min.css')}}
+		{{style('lib/ionicons/css/ionicons.min.css')}}
+		{{style('lib/owlcarousel/assets/owl.carousel.min.css')}}
+		{{style('lib/lightbox/css/lightbox.min.css')}}
 
 		<!-- Main Stylesheet File -->
-		{{style('css/style.css" rel="stylesheet')}}
+		{{style('css/style.css')}}
 
 		<!-- =======================================================
 		Theme Name: NewBiz
@@ -50,21 +48,22 @@
 					<!-- Uncomment below if you prefer to use an image logo -->
 					<!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
 					<a href="#intro" class="scrollto">
-						<img src="{{ assetsUrl('img/logo.png')}}" alt="" class="img-fluid"/>3DH Professional Services
+						<img src="{{assetsUrl('img/logo.png')}}" alt="" class="img-fluid"/>3DH Professional Services
 					</a>
 				</div>
 
 				<nav class="main-nav float-right d-none d-lg-block">
 					<ul>
-						<li class="active"><a href="#intro">Inicio</a></li>
-						<li><a href="#about">Nosotros</a></li>
+						<li class="active"><a href="#intro">Home</a></li>
+						<li><a href="#about">About Us</a></li>
 						<li>
-							<a href="#objetivo">Nuestro Objetivo</a>
+							<a href="#objetivo">Our Objetive</a>
 						</li>
 						<li>
-							<a href="#team">Integrantes del equipo</a>
-						</li>
-						<li><a href="/eng">Ingles</a></li>
+							<a href="#team">Our Team</a>
+                        </li>
+                        <li><a href="/">Spanish<</a>/li>
+
 					</ul>
 				</nav>
 				<!-- .main-nav -->
@@ -82,10 +81,10 @@
 				</div>
 
 				<div class="intro-info">
-					<h2>Consultora<br /><span>3DH Professional Services</span><br /></h2>
+					<h2>Consultant<br /><span>3DH Professional Services</span><br /></h2>
 					<div>
-						<a href="#about" class="btn-get-started scrollto">Con&oacute;cenos</a>
-						<a href="#services" class="btn-services scrollto">Nuestro Plan</a>
+						<a href="#about" class="btn-get-started scrollto">Know Us</a>
+						<a href="#objetivo" class="btn-services scrollto">Our Plan</a>
 					</div>
 				</div>
 			</div>
@@ -99,30 +98,29 @@
 			<section id="about">
 				<div class="container">
 					<header class="section-header">
-						<h3>Nosotros</h3>
+						<h3>About us</h3>
 						<p>
-							Somos una empresa responsable a fin a las necesidades de la actualidad en los diferentes &aacute;mbitos tecnol&oacute;gicos, hemos visto la
-							evoluci&oacute;n de la tecnolog&iacute;a y lo necesario e indispensable que se ha
-							convertido actualmente.
+							Are a responsible company in order to meet the needs of today in different technological areas, we have seen the
+							evolution of technology and how it has turned necessary and indispensable.
 						</p>
 					</header>
 
 					<div class="row about-container">
 						<div class="col-lg-6 content order-lg-1 order-2">
 							<p>
-								Tomamos como base algunos est&aacute;ndares internacionales para validar o mejorar la calidad del cableado estructurado,
-								 como es el caso de la TIA/EIA 568, as&iacute; como la distribuci&oacute;n l&oacute;gica de la red. 
-								 Tambi&eacute;n nos basamos en documentaci&oacute;n de software para dar a nuestros clientes las mejores propuestas.
+								We take as a base some international standards to validate or improve the quality of structured cabling,
+								for example the TIA / EIA 568 standard, as well as the logical distribution of the network.
+								We also base on software documentation to give our clients the best proposals.
 							</p>
 							<div class="icon-box wow fadeInUp">
 								<div class="icon"><i class="fa fa-shopping-bag"></i></div>
 								<h4 class="title">
-									<a href="">Misi&oacute;n</a>
+									<a href="">Mission</a>
 								</h4>
 								<p class="description">
-									Ofrecer un buen servicio de consultor&iacute;a en el ár&aacute;a de sistemas 
-									y redes de alta calidad a aquellos clientes que aspiran a una buena optimizaci&oacute;n en sus organizaciones, 
-									con una perspectiva de mejora continua y calidad para la satisfacci&oacute;n de nuestros clientes.
+									Offer a good consultancy service in the systems area
+									and high-quality networks for those clients that aspire to good optimization in their organizations,
+									with a perspective of continuous improvement and quality for the satisfaction of our customers.
 								</p>
 							</div>
 							<!--
@@ -142,12 +140,12 @@
 							<div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
 								<div class="icon"><i class="fa fa-bar-chart"></i></div>
 								<h4 class="title">
-									<a href="">Visi&oacute;n</a>
+									<a href="">Vision</a>
 								</h4>
 								<p class="description">
-									Ser en el a&ntilde;o 2030 una empresa consultora reconocida a nivel estatal, 
-									con liderazgo en en el &aacute;rea de sistemas, caracteriz&aacute;ndose por fomentar e 
-									implementar el uso adecuado de las tecnolog&iacute;as as&iacute; como el cumplimiento de algunos est&aacute;ndares.
+									To be in the year 2030 a consulting company recognized at the state level,
+									with leadership in the systems area, characterized by promoting the
+									implement of the proper use of technology as well as the fulfillment of some standards.
 								</p>
 							</div>
 						</div>
@@ -159,7 +157,7 @@
 <!--
 					<div class="row about-extra">
 						<div class="col-lg-6 wow fadeInUp">
-							<img src="img/about-extra-1.svg" class="img-fluid" alt="" />
+							<img src="{{assetsUrl('img/about-extra-1.svg')}}" class="img-fluid" alt="" />
 						</div>
 						<div id="proy_descripcion"class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
 							<p>
@@ -185,11 +183,11 @@
 							<img src="{{assetsUrl('img/about-extra-2.svg')}}" class="img-fluid" alt="" />
 						</div>
 
-						<div id="objetivo"class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-							<h4>Objetivo</h4>
+						<div id="objetivo" class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+							<h4>Objetive</h4>
 							<p>
-								Realizar consultor&iacute;as en el área de sistemas inform&aacute;ticos y
-								 en la de redes, para ayudar a mejorar el desempe&ntilde;o o funcionamiento de la empresa que lo requiera.
+								Perform consultants in the area of computer systems and
+								in the network, to help improve the performance or operation of the company that requires it.
 							</p>
 						</div>
 					</div>
@@ -197,13 +195,13 @@
 					<div class="row about-extra">
 						<div class="container wow fadeInUp" style="text-align: center;">
 							<header class="section-header">
-								<h1>Cont&aacute;ctanos</h1>
+								<h1>Contact Us</h1>
 							</header>
 							<p>
-								M&aacute;ndanos un email o ll&aacute;manos al n&uacute;mero que se encuentra al pie de esta p&aacute;gina, con gusto te cotizaremos o te atenderemos. 
+								Send us an email or call to the number that is at the bottom of this page, we will be glad of attend you or make a quote for you.
 							</p>
 							<p>
-								Conoce m&aacute;s de nuestros servicios en <a href="https://www.facebook.com/3HD-code-848584285480396">nuestra p&aacute;gina de Facebook</a>.
+								Know more about our services in <a href="https://www.facebook.com/3HD-code-848584285480396">our Facebook page</a>.
 								<div class="fb-like" data-href="https://www.facebook.com/3HD-code-848584285480396" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 							</p>
 						</div>
@@ -319,7 +317,7 @@
 			<section id="ourTeam" class="section-bg">
 				<div class="container">
 					<header class="section-header">
-						<h3>Nuestro Equipo</h3>
+						<h3>Our Team</h3>
 					</header>
 
 					<div class="row justify-content-center">
@@ -332,24 +330,24 @@
 										alt=""
 									/>
 									<h3>Jos&eacute; Alberto Reyna Serrano</h3>
-									<h4>L&iacute;der y analista de sistemas</h4>
+									<h4>Leader and systems analyst</h4>
 									<p>
-										Estudiante de Ingenier&iacute;a en Tecnolog&iacute;as de la Informaci&oacute;n y
-										Comunicaci&oacute;n cursando el 8vo cuatrimestre de carrera,
-										trabaja de una manera din&aacute;mica y proactiva buscando la
-										manera m&aacute;s eficiente de resolver situaciones.
+										I am a student in the 8th quater of Engineering in Information Technology and
+										Communication.
+										I work in a dynamic and proactive way looking for
+										efficient way to solve situations.
 									</p>
 								</div>
 
 								<div class="testimonial-item">
 									<img src="{{assetsUrl('img/team-22.jpg')}}" class="testimonial-img" alt="" />
 									<h3>Diana Elizabeth N&uacute;&ntilde;ez Barr&oacute;n</h3>
-									<h4>Responsable de calidad y redes</h4>
+									<h4>Quality and Network Manager</h4>
 									<p>
-										Licenciada en Educación F&iacute;sica y Deportes, actualmente
-										estudiante de ingenier&iacute;a en Tecnolog&iacute;as de la Informaci&oacute;n en
-										8vo cuatrimestre. Conocimientos generales de programaci&oacute;n y
-										con habilidad en redes, bases de datos y dise&ntilde;o web.
+										Degree of Physical Education and Sports, currently
+										engineering student in Information Technology in
+										8th semester. General knowledge of programming and
+										with skill in networks, databases and web design.
 									</p>
 								</div>
 
@@ -362,26 +360,25 @@
 									/>
 									<br /><br /><br /><br /><br />
 									<h3>Diego Villarreal Nev&aacute;rez</h3>
-									<h4>Dise&ntilde;ador y responsable de pruebas</h4>
+									<h4>Test Manager and Designer</h4>
 									<p>
-										Cursando Ingenier&iacute;a en Tecnolog&iacute;as de la Informaci&oacute;n,
-										T&eacute;cnico Superior Universitario en TIC. Actualmente en
-										Durango, Dgo. Generalmente activo en plataformas de c&oacute;digo
-										libre como GitHub. Dise&ntilde;ador Amateur.
+										I am a student in the 8th quater of Engineering in Information Technology and
+										Communication. Actually I am living in Durango city. 
+										Commonly I am active in free code platforms like GitHub. I am an amateur designer.
 									</p>
 								</div>
 
 								<div class="testimonial-item">
 									<img src="{{assetsUrl('img/team-44.jpg')}}" class="testimonial-img" alt="" />
 									<h3>Hiram Abiezer Padilla Mart&iacute;nez</h3>
-									<h4>Ingeniero de software</h4>
+									<h4>Software engineer</h4>
 									<p>
-										T&eacute;cnico Superior Universitario en Tecnolog&iacute;as de la
-										Informaci&oacute;n y Comunicaci&oacute;n, con conocimientos sobre redes y
-										distintos lenguajes de programacion como HTML, PHP, CSS,
-										Javascript y Java. Habilidad para manejar bases de datos
-										relacionales en MySQL y PostgreSQL, bases de datos NO SQL
-										con MongoDB.
+										University Superior Technician in Technologies of the
+										Information and Communication, with knowledge about networks and
+										different programming languages such as HTML, PHP, CSS,
+										Javascript and Java. Ability to manage
+										relational databases in MySQL, PostgreSQL and NO SQL databases
+										with MongoDB.
 									</p>
 								</div>
 							</div>
@@ -397,8 +394,8 @@
 			<section id="team">
 				<div class="container">
 					<div class="section-header">
-						<h3>Redes</h3>
-						<p>Nuestro equipo est&aacute; capacitado con t&eacute;cnicas de excelencia</p>
+						<h3>Leaders</h3>
+						<p>Our team is trained with techniques of excellence</p>
 					</div>
 
 					<div class="row">
@@ -408,7 +405,7 @@
 								<div class="member-info">
 									<div class="member-info-content">
 										<h4>Jos&eacute; Alberto Reyna Serrano</h4>
-										<span>L&iacute;der y analista de sistemas</span>
+										<span>Leader and systems analyst</span>
 										<div class="social">
 											<a href=""><i class="fa fa-twitter"></i></a>
 											<a href=""><i class="fa fa-facebook"></i></a>
@@ -426,7 +423,7 @@
 								<div class="member-info">
 									<div class="member-info-content">
 										<h4>Diana Elizabeth N&uacute;&ntilde;ez Barr&oacute;n</h4>
-										<span>Responsable de calidad y redes</span>
+										<span>Quality and Network Manager</span>
 										<div class="social">
 											<a href=""><i class="fa fa-twitter"></i></a>
 											<a href=""><i class="fa fa-facebook"></i></a>
@@ -449,7 +446,7 @@
 								<div class="member-info">
 									<div class="member-info-content">
 										<h4>Diego Villarreal Nev&aacute;rez</h4>
-										<span>Dise&ntilde;ador y responsable de pruebas</span>
+										<span>Test Manager and Designer</span>
 										<div class="social">
 											<a href=""><i class="fa fa-twitter"></i></a>
 											<a href=""><i class="fa fa-facebook"></i></a>
@@ -467,7 +464,7 @@
 								<div class="member-info">
 									<div class="member-info-content">
 										<h4>Hiram Abiezer Padilla Mart&iacute;nez</h4>
-										<span>Ingeniero de software</span>
+										<span>Software engineer</span>
 										<div class="social">
 											<a href=""><i class="fa fa-twitter"></i></a>
 											<a href=""><i class="fa fa-facebook"></i></a>
@@ -481,18 +478,17 @@
 					</div>
 				</div>
 			</section>
-      <!-- #team -->
-      <section id="comentarios">
-		<div class="container" style="max-height: 25%; height:25%;">
-			<label for="comentarios"><h1>Comentarios</h1></label>
-			<div id="status"></div>
-			
-			<div class="comments">
-				@include('comentarios')
-			</div>
-		  <br>
-        </div>
-      </section>
+            <!-- #team -->
+            <section id="comentarios">
+                <div class="container" style="max-height: 25%; height:25%;">
+                    <label for="comentarios"><h1>Comments</h1></label>
+                    <div id="status"></div>
+                    <div class="comments">
+                        @include('comments')
+                    </div>
+                  <br>
+                </div>
+              </section>
 		</main>
 
 		<!--==========================
@@ -505,20 +501,20 @@
 						<div class="col-lg-4 col-md-6 footer-info">
 							<h3>3DH Professional Services</h3>
 							<p>
-								Como 3DH Professional Services, somos una empresa orientada a las tecnolog&iacute;as de la
-								informaci&oacute;n estando siempre a la vanguardia del	procesamiento de datos,
-								gesti&oacute;n de servicios inform&aacute;ticos y
-								redes para las empresas desde peque&ntilde;as hasta grandes
-								corporativos desarrollando soluciones inform&aacute;ticas con
-								profesionalismo incursando en las nuevas tecnolog&iacute;as en el
-								desarrollo de aplicaciones nativas y web, as&iacute; como animaci&oacute;n.
+								As 3DH Professional Services, we are a company focused on the technology of the
+								information, being always at the forefront of data processing,
+								management of computer and information services
+								networks for businesses, from small to large
+								companies developing information solutions with
+								professionalism, incurring in the new technologies in the
+								development of native applications and web, as well as animation.
 							</p>
 						</div>
 
 						<div class="col-lg-3 col-md-6 footer-contact">
-							<h4>Cont&aacute;ctanos</h4>
+							<h4>Contact us</h4>
 							<p>
-								Calle 5 de Febrero #1919 <br />
+								Alumineros street #310, Fidel Velazquez II <br />
 								Durango, Dgo<br />
 								M&eacute;xico <br />
 								<strong>Phone:</strong> +516182086126<br />
@@ -539,8 +535,8 @@
 						</div>
 
 						<div class="col-lg-3 col-md-6 footer-newsletter">
-							<h4>Ac&eacute;rcate</h4>
-							<p>M&aacute;ndanos un email o ll&aacute;manos</p>
+							<p>If you have questions</p>
+							<h4>Send us an email o phone us</h4>
 						</div>
 					</div>
 				</div>
@@ -568,23 +564,22 @@
 		<!-- <div id="preloader"></div> -->
 
 		<!-- JavaScript Libraries -->
-		{{ script('lib/jquery/jquery.min.js')}}
-		{{ script('lib/jquery/jquery-migrate.min.js')}}
-		{{ script('lib/bootstrap/js/bootstrap.bundle.min.js')}}
-		{{ script('lib/easing/easing.min.js')}}
-		{{ script('lib/mobile-nav/mobile-nav.js')}}
-		{{ script('lib/wow/wow.min.js')}}
-		{{ script('lib/waypoints/waypoints.min.js')}}
-		{{ script('lib/counterup/counterup.min.js')}}
-		{{ script('lib/owlcarousel/owl.carousel.min.js')}}
-		{{ script('lib/isotope/isotope.pkgd.min.js')}}
-		{{ script('lib/lightbox/js/lightbox.min.js')}}
+		{{script('lib/jquery/jquery.min.js')}}
+		{{script('lib/jquery/jquery-migrate.min.js')}}
+		{{script('lib/bootstrap/js/bootstrap.bundle.min.js')}}
+		{{script('lib/easing/easing.min.js')}}
+		{{script('lib/mobile-nav/mobile-nav.js')}}
+		{{script('lib/wow/wow.min.js')}}
+		{{script('lib/waypoints/waypoints.min.js')}}
+		{{script('lib/counterup/counterup.min.js')}}
+		{{script('lib/owlcarousel/owl.carousel.min.js')}}
+		{{script('lib/isotope/isotope.pkgd.min.js')}}
+		{{script('lib/lightbox/js/lightbox.min.js')}}
 		<!-- Contact Form JavaScript File -->
-		{{ script('contactform/contactform.js')}}
+		{{script('contactform/contactform.js')}}
 
-		<!-- Template Main Javascript File -->
-		{{ script('js/main.js')}}
-		{{ script('js/comment.js')}}
-		
+        <!-- Template Main Javascript File -->
+        {{script('js/main.js')}}
+        {{script('js/comment.js')}}
 	</body>
 </html>

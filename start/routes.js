@@ -17,4 +17,5 @@
 const Route = use('Route')
 
 Route.get('/','MainController.GetIndex');
+Route.get('/eng','MainController.GetEnglish');
 Route.post('/comment','MainController.SetComment');

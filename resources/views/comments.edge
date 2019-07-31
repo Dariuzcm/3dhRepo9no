@@ -1,0 +1,70 @@
+<div class="container-fluid" height="15%">
+    <div class="row">
+    <button class="btn btn-primary" data-toggle="modal" data-target="#CommentModal" type="submit">Add Comment </button>
+  </div>
+  <br>
+    @each( item in comments)
+        <div class="media card">
+          @if( item.maleAvatar > 0)
+          <img src="{{assetsUrl('male.png')}}"  width="60px" class="mr-3" alt="Male anonimus avatar">        
+          @else
+          <img src="{{assetsUrl('female.png')}}" width="60px" class="mr-3" alt="Female anonimus avatar">
+          @endif
+          <div class="media-body">
+          <h4 class="mt-0">By {{item.name}} , {{item.created_at}}</h4>
+            {{item.comment}}
+          </div>
+        </div>
+      @else
+      <div class="media card">
+          <img src="{{assetsUrl('generic.png')}}" width="60px" class="mr-3" alt="Female anonimus avatar">       
+          <div class="media-body">
+            <h5 class="mt-1">
+                It doesn't exists Commentaries</h5>
+          </div>
+        </div>
+      @endeach
+  
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="CommentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content" margin="1rem">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Add your Comment</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+              <form class="form" id="comment-form">
+          <div class="modal-body col-sm align-self-center">
+              {{ csrfField() }}
+              <div class="row">
+              <div class="col">
+                  <label for="c-gender">Male</label>
+                  <input type="radio" name="gender" id="c-gender" value="m">
+              </div>
+              <div class="col">
+                  <label for="c-gender">Female</label>
+                <input type="radio" name="gender" id="c-gender" value="f">
+              </div>
+            </div>
+              <div class="row">
+                  <input  class="form-control" type="text" name="name" id="c-name"  required placeholder="Ingresa tu Nombre o Nick name">
+              </div>
+               <div class="row">
+                      <textarea class="form-control" name="content" id="c-comment" required placeholder="Ingresa tu comentario" cols="10" rows="5"></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button id="btn-comment-save" type="submit" class="btn btn-light">Save Comment</button>
+                  <div class="modal-status"></div>
+  
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+  
